@@ -11,7 +11,7 @@ export default function SideNavRouter(props) {
 
   return (
       <Router>
-        <div className='container'>
+        <div className="container">
           <ul className="side-nav-ul">
             <li>
               <Link className="crumb-button" to="/projects">
