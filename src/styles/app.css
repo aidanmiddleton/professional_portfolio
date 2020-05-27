@@ -22,6 +22,9 @@ button {
   border: none;
   height: 100%;
   width: 100%;
+  outline: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 a {
@@ -33,12 +36,16 @@ li {
   margin:0;
   color:#000;
 	background:aquamarine;
-	padding-top: 20px;
-  padding-bottom: 20px;
+	padding-top: 5px;
+  padding-bottom: 5px;
 	float:left;
 	width:auto;
 }
 
 li:hover {
   background-color: white;
+}
+
+li:click {
+  background-color: blue;
 }
