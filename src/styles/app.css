@@ -1,3 +1,7 @@
+body {
+  background-color: white;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -11,9 +15,9 @@ ul.side-nav-ul {
   margin: 0;
   flex-direction: column;
   height: 100%;
-  justify-content: space-around;
+  justify-content: center;
   width: 25vw;
-  background: aquamarine;
+  background: #22c7c1;
 }
 
 button {
@@ -35,7 +39,7 @@ li {
   padding:0;
   margin:0;
   color:#000;
-	background:aquamarine;
+	background:#22c7c1;
 	/* padding-top: 5px;
   padding-bottom: 5px; */
 	float:left;
@@ -46,7 +50,7 @@ li.router-link {
   padding:0;
   margin:0;
   color:#000;
-	background:aquamarine;
+	background:#22c7c1;
 	/* padding-top: 5px;
   padding-bottom: 5px; */
 	float:left;
@@ -61,7 +65,7 @@ li.router-link:hover {
   padding: 0;
   margin: 0;
   color: #000;
-  background: aquamarine;
+  background: #22c7c1;
   float: left;
   width: auto;
   display: flex;
@@ -69,7 +73,7 @@ li.router-link:hover {
 }
 
 img {
-  width: 20vw;
+  width: 16vw;
 }
 
 .img-container {

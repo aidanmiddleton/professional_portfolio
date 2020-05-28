@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import PhotoDisplay from './Photo_Display'
+import PhotoDisplay from './Photo_Display';
+import SocialMediaLinks from './Social_Media_links';
 
 
 
@@ -22,6 +23,7 @@ export default function SideNavRouter(props) {
                   <PhotoDisplay />
                 </li>  
             </div>
+
             <div className='router-links'>
                 <li className='router-link'>
                   <Link className="crumb-button" to="/projects">
@@ -46,6 +48,10 @@ export default function SideNavRouter(props) {
                 </li>
             </div>
 
+            <li>
+              <SocialMediaLinks />
+            </li>
+            
           </ul>
 
           <Switch>
