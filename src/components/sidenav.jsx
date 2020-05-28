@@ -28,27 +28,27 @@ export default function SideNavRouter(props) {
                 <li className='router-link'>
                   <Link className="crumb-button" to="/projects">
                     <button variant="contained" color="primary">
-                      Projects
+                      PROJECTS
                     </button>
                   </Link>
                 </li>
                 <li className='router-link'>
                   <Link className="crumb-button" to="/resume">
                     <button variant="contained" color="primary">
-                      Resume
+                      RESUME
                     </button>
                   </Link>
                 </li>
                 <li className='router-link'>
                   <Link className="crumb-button" to="/photography">
                     <button variant="contained" color="primary">
-                      Photography
+                      PHOTOGRAPHY
                     </button>
                   </Link>
                 </li>
             </div>
 
-            <li>
+            <li className='social-icons-li'>
               <SocialMediaLinks />
             </li>
             
