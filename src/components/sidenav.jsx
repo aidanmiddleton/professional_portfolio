@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import PhotoDisplay from './Photo_Display';
 import SocialMediaLinks from './Social_Media_links';
-
+import Resume from './Resume'
 
 
 
@@ -59,7 +59,7 @@ export default function SideNavRouter(props) {
               <h1>something 1</h1>
             </Route>
             <Route path="/resume">
-              <h1>something 2</h1>
+              <Resume />
             </Route>
             <Route path="/photography">
               <h1>something 3</h1>

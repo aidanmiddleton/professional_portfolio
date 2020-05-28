@@ -73,7 +73,7 @@ li.router-link:hover {
   flex-direction: column;
 }
 
-img {
+.profile-pic {
   width: 16vw;
 }
 
@@ -100,6 +100,17 @@ img {
 
 a.social-icon {
   margin: 5px;
+}
+
+.resume {
+  width: 75vw;
+  display: flex;
+  justify-content: center;
+}
+
+.resume-img {
+  margin-top: 5vh;
+  height: 90vh;
 }
 
 
