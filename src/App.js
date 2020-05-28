@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import SideNavRouter from './components/sidenav'
+import SideNavRouter from './components/Sidenav'
 import '../src/styles/app.css'
 
 function App() {
