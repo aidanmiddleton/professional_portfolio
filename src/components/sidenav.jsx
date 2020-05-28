@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import PhotoDisplay from './Photo_Display'
 
 
 
@@ -10,30 +11,41 @@ export default function SideNavRouter(props) {
 
 
   return (
+    <div className='side-nav-full'>
+      {/* <PhotoDisplay /> */}
       <Router>
         <div className="container">
           <ul className="side-nav-ul">
-            <li>
-              <Link className="crumb-button" to="/projects">
-                <button variant="contained" color="primary">
-                  Projects
-                </button>
-              </Link>
-            </li>
-            <li>
-              <Link className="crumb-button" to="/resume">
-                <button variant="contained" color="primary">
-                  Resume
-                </button>
-              </Link>
-            </li>
-            <li>
-              <Link className="crumb-button" to="/photography">
-                <button variant="contained" color="primary">
-                  Photography
-                </button>
-              </Link>
-            </li>
+
+            <div className='photo-display'>
+                <li>
+                  <PhotoDisplay />
+                </li>  
+            </div>
+            <div className='router-links'>
+                <li className='router-link'>
+                  <Link className="crumb-button" to="/projects">
+                    <button variant="contained" color="primary">
+                      Projects
+                    </button>
+                  </Link>
+                </li>
+                <li className='router-link'>
+                  <Link className="crumb-button" to="/resume">
+                    <button variant="contained" color="primary">
+                      Resume
+                    </button>
+                  </Link>
+                </li>
+                <li className='router-link'>
+                  <Link className="crumb-button" to="/photography">
+                    <button variant="contained" color="primary">
+                      Photography
+                    </button>
+                  </Link>
+                </li>
+            </div>
+
           </ul>
 
           <Switch>
@@ -49,5 +61,6 @@ export default function SideNavRouter(props) {
           </Switch>
         </div>
       </Router>
+    </div>  
   );
 }
