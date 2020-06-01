@@ -1,8 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link, NavLink } from 'react-router-dom';
 import PhotoDisplay from './Photo_Display';
 import SocialMediaLinks from './Social_Media_links';
-import Resume from './Resume'
+import Resume from './Resume';
+// import NavLink from './Nav_Link';
 
 
 
@@ -26,25 +27,25 @@ export default function SideNavRouter(props) {
 
             <div className='router-links'>
                 <li className='router-link'>
-                  <Link className="crumb-button" to="/projects">
+                  <NavLink activeClassName='active' className="crumb-button" to="/projects">
                     <button variant="contained" color="primary">
                       PROJECTS
                     </button>
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className='router-link'>
-                  <Link className="crumb-button" to="/resume">
+                  <NavLink activeClassName='active' className="crumb-button" to="/resume">
                     <button variant="contained" color="primary">
                       RESUME
                     </button>
-                  </Link>
+                  </NavLink>
                 </li>
                 <li className='router-link'>
-                  <Link className="crumb-button" to="/photography">
+                  <NavLink activeClassName='active' className="crumb-button" to="/photography">
                     <button variant="contained" color="primary">
                       PHOTOGRAPHY
                     </button>
-                  </Link>
+                  </NavLink>
                 </li>
             </div>
 

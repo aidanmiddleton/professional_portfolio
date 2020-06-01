@@ -22,6 +22,7 @@ ul.side-nav-ul {
 }
 
 button {
+  font-weight: 600;
   font-size: 100%;
   background-color: inherit;
   border: none;
@@ -30,6 +31,10 @@ button {
   outline: none;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.active {
+  background-color: white;
 }
 
 a {
@@ -85,7 +90,7 @@ li.router-link:hover {
   display: flex;
   justify-content: center;
   list-style: none;
-
+  width: 25vw;
 }
 
 .social-icons {
