@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link, NavLink } from 'react-rou
 import PhotoDisplay from './Photo_Display';
 import SocialMediaLinks from './Social_Media_links';
 import Resume from './Resume';
+import ProjectList from './project_unit/Project_List'
 // import NavLink from './Nav_Link';
 
 
@@ -57,7 +58,7 @@ export default function SideNavRouter(props) {
 
           <Switch>
             <Route path="/projects">
-              <h1>something 1</h1>
+              <ProjectList />
             </Route>
             <Route path="/resume">
               <Resume />
