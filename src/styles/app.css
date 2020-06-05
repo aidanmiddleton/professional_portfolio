@@ -31,7 +31,13 @@ button {
   outline: none;
   padding-top: 20px;
   padding-bottom: 20px;
+  
 }
+
+/* button:hover {
+  background-color: white;
+  opacity: 60%;
+} */
 
 .active {
   background-color: white;
@@ -41,16 +47,6 @@ a {
   height: 100%;
 }
 
-li {
-  padding:0;
-  margin:0;
-  color:#000;
-	background:#22c7c1;
-	/* padding-top: 5px;
-  padding-bottom: 5px; */
-	float:left;
-	width:auto;
-}
 
 li.router-link {
   padding:0;
