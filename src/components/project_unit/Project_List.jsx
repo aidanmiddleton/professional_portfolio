@@ -8,6 +8,8 @@ export default function ProjectList(props) {
     <container className='project-container'>
       <ul className='project-list'>
         <ProjectListItem />
+        <ProjectListItem />
+        <ProjectListItem />
       </ul>
     </container>
   );

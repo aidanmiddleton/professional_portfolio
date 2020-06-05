@@ -1,3 +1,15 @@
 .project-container {
   width: 75vw;
+  display: flex;
+  justify-content: center;
+  margin-left: 25vw;
+}
+
+.project-list-item {
+  list-style: none;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
 }
