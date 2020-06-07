@@ -8,7 +8,7 @@ const projectsData = [
     description: "My own personal portfolio website, built to display projects, and allow for easy contact.",
     stack: "React.js, Node.js,",
     youtube_url: "https://www.youtube.com/watch?v=Yxrrb0am988",
-    github_url: "https://github.com/aidanmiddleton/professional_portfolio"
+    github_url: "https://github.com/aidanmiddleton/professional_portfolio",
 
   },
 
@@ -27,6 +27,15 @@ const projectsData = [
     stack: "Ruby, Rails, ERB, postgres, Jest",
     youtube_url: "https://www.youtube.com/watch?v=Yxrrb0am988",
     github_url: "https://github.com/aidanmiddleton/Jungle"
+
+  },
+
+  {
+    name: "Scheduler",
+    description: "Scheduling app",
+    stack: "React, postgres, storybook, cypress",
+    youtube_url: "https://www.youtube.com/watch?v=Yxrrb0am988",
+    github_url: "https://github.com/aidanmiddleton/scheduler"
 
   },
 
