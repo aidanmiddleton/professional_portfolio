@@ -1,5 +1,6 @@
 body {
-  background-color: white;
+  color:white;
+  background-color:#00695c;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -18,7 +19,7 @@ ul.side-nav-ul {
   height: 100%;
   justify-content: center;
   width: 25vw;
-  background: #22c7c1;
+  background:#00bfa5;
   position: fixed;
 }
 
@@ -32,6 +33,7 @@ button {
   outline: none;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: white;
   
 }
 
@@ -41,7 +43,7 @@ button {
 } */
 
 .active {
-  background-color: white;
+  background-color:#00695c;
 }
 
 a {
@@ -52,8 +54,8 @@ a {
 li.router-link {
   padding:0;
   margin:0;
-  color:#000;
-	background:#22c7c1;
+  color:white;
+	background:#00bfa5;
 	/* padding-top: 5px;
   padding-bottom: 5px; */
 	float:left;
@@ -61,14 +63,14 @@ li.router-link {
 }
 
 li.router-link:hover {
-  background-color: white;
+  background-color: #00897b
 }
 
 .router-links {
   padding: 0;
   margin: 0;
-  color: #000;
-  background: #22c7c1;
+  color: white;
+  background: #00bfa5;
   float: left;
   width: auto;
   display: flex;

@@ -9,8 +9,10 @@
   list-style: none;
   margin-left: 5vw;
   margin-right: 5vw;
-  border: solid;
+  /* border: solid; */
   margin-bottom: 2vh;
+  background:#00bfa5;
+  color: white;
 }
 
 .project-list {
