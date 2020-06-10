@@ -2,6 +2,7 @@ body {
   color:white;
   background-color:#00695c;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png"); */
 }
 
 .container {
@@ -21,6 +22,7 @@ ul.side-nav-ul {
   width: 25vw;
   background:#00bfa5;
   position: fixed;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 }
 
 button {
@@ -43,6 +45,7 @@ button {
 } */
 
 .active {
+  /* background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png"); */
   background-color:#00695c;
 }
 
@@ -59,7 +62,8 @@ li.router-link {
 	/* padding-top: 5px;
   padding-bottom: 5px; */
 	float:left;
-	width:auto;
+  width:auto;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
 }
 
 li.router-link:hover {
