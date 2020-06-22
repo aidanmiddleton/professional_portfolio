@@ -22,7 +22,7 @@ ul.side-nav-ul {
   width: 25vw;
   background:#00bfa5;
   position: fixed;
-  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png"); */
 }
 
 button {
@@ -63,7 +63,7 @@ li.router-link {
   padding-bottom: 5px; */
 	float:left;
   width:auto;
-  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png"); */
 }
 
 li.router-link:hover {

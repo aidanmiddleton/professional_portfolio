@@ -4,6 +4,7 @@ import PhotoDisplay from './Photo_Display';
 import SocialMediaLinks from './Social_Media_links';
 import Resume from './Resume';
 import ProjectList from './project_unit/Project_List'
+import PhotoLibrary from './photo_library/Photo_Library'
 // import NavLink from './Nav_Link';
 
 
@@ -64,7 +65,7 @@ export default function SideNavRouter(props) {
               <Resume />
             </Route>
             <Route path="/photography">
-              <h1>something 3</h1>
+              <PhotoLibrary />
             </Route>
           </Switch>
         </div>

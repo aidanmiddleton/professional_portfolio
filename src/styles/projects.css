@@ -10,10 +10,10 @@
   margin-left: 5vw;
   margin-right: 5vw;
   /* border: solid; */
-  margin-bottom: 2vh;
+  margin-bottom: 4vh;
   background:#00bfa5;
   color: white;
-  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  /* background-image: url("https://www.transparenttextures.com/patterns/blizzard.png"); */
 }
 
 .project-list {
@@ -28,4 +28,6 @@
   align-items: center;
   padding-top: 2vh;
   padding-bottom: 2vh;
+  padding-right: 2vw;
+  padding-left: 2vw;
 }

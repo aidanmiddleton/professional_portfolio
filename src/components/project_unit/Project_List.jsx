@@ -61,6 +61,7 @@ export default function ProjectList(props) {
   return (
     <container className='project-container'>
       <ul className='project-list'>
+      <h1 className='projects-header'>Projects</h1>
         {projects}
       </ul>
     </container>
