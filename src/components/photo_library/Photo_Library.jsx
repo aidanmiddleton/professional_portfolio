@@ -6,23 +6,26 @@ export default function PhotoCarousel() {
 
   return (
     <div className='carousel-div'>
-      <Carousel>
-        <div>
-          <img src='https://unsplash.com/photos/twukN12EN7c/download'/>
-          <h2>Caption</h2>
-        </div>
+      <div className='inner-carousel-div'>
 
-        <div>
-          <img src='https://unsplash.com/photos/twukN12EN7c/download'/>
-          <h2>Caption</h2>
-        </div>
+        <Carousel>
+          <div>
+            <img src='https://unsplash.com/photos/twukN12EN7c/download'/>
+            <h2>Caption</h2>
+          </div>
 
-        <div>
-          <img src='https://unsplash.com/photos/twukN12EN7c/download'/>
-          <h2>Caption</h2>
-        </div>
+          <div>
+            <img src='https://unsplash.com/photos/twukN12EN7c/download'/>
+            <h2>Caption</h2>
+          </div>
 
-      </Carousel>
+          <div>
+            <img src='https://unsplash.com/photos/twukN12EN7c/download'/>
+            <h2>Caption</h2>
+          </div>
+        </Carousel>
+
+      </div>
     </div>
 
   )

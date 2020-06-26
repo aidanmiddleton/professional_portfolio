@@ -125,6 +125,13 @@ a.social-icon {
 .carousel-div {
   width: 75vw;
   margin-left: 25vw;
+  display: flex;
+  justify-content: center;
 }
 
+.inner-carousel-div {
+  width: 65vw;
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+}
 
