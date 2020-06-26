@@ -45,7 +45,7 @@ const projectsData = [
 
 export default function ProjectList(props) {
   
-  let projects = projectsData.map(project => {
+  let AllProjects = projectsData.map(project => {
     return (
       <ProjectListItem 
         name={project.name}
@@ -62,7 +62,7 @@ export default function ProjectList(props) {
     <container className='project-container'>
       <ul className='project-list'>
       <h1 className='projects-header'>Projects</h1>
-        {projects}
+        {AllProjects}
       </ul>
     </container>
   );
