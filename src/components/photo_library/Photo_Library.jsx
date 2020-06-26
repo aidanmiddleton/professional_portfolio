@@ -1,8 +1,9 @@
 import React from 'react';
-import { Carousel } from  'react-responsive-carousel'
+import { Carousel } from  'react-responsive-carousel';
+import ReactPlayer from 'react-player';
 
 
-export default function PhotoCarousel() {
+export default function PhotoCarousel(props) {
 
   return (
     <div className='carousel-div'>

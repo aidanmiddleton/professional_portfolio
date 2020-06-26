@@ -9,7 +9,7 @@ export default function ProjectListItem(props) {
   <li className='project-list-item'>
     <div className='project-item-div'>
 
-      <h1 className='project-item-title'>{props.name}</h1>
+      <h2 className='project-item-title'>{props.name}</h2>
       <p>{props.description}</p>
       <p>{props.stack}</p>
       <SocialIcon className='social-icon' url={props.githubURL} />
